@@ -1,0 +1,12 @@
+# Cau hinh that: so tai khoan ngan hang + SEPAY_API_KEY
+.env
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Backup DB / schema tao luc chuyen sang SQLite
+*.bak-*
+demo_cafe.db-wal
+demo_cafe.db-shm

@@ -1,0 +1,10 @@
+# Cadebot Payment Server
+# Python he thong la EXTERNALLY-MANAGED (PEP 668) nen bat buoc dung venv:
+#   python3 -m venv .venv
+#   .venv/bin/pip install -r requirements.txt
+#   .venv/bin/uvicorn payment_server:app --host 0.0.0.0 --port 8080
+
+fastapi>=0.115
+uvicorn>=0.30
+httpx>=0.27      # dung boi TestClient cua FastAPI
+pytest>=7.4
