@@ -1,0 +1,265 @@
+{
+  "categories": [
+    { "id": "coffee", "name": "Cà Phê", "iconEmoji": "☕" },
+    { "id": "tea", "name": "Trà", "iconEmoji": "🍵" },
+    { "id": "ice_blended", "name": "Đá Xay", "iconEmoji": "🍧" },
+    { "id": "pastry", "name": "Bánh Ngọt", "iconEmoji": "🍰" },
+    { "id": "combo", "name": "Combo", "iconEmoji": "🎁" }
+  ],
+  "items": [
+    {
+      "menuItemId": "VR_LATTE_M",
+      "name": "Viva Latte",
+      "category": "coffee",
+      "price": 55000,
+      "description": "Latte signature của Viva, vị sữa béo nhẹ và espresso cân bằng.",
+      "tags": ["best_seller", "milk", "coffee"],
+      "imageRes": "img_latte",
+      "attributes": {
+        "caffeine": true,
+        "temperatureOptions": ["hot", "iced"],
+        "defaultTemperature": "iced",
+        "sweetnessOptions": ["0%", "30%", "50%", "70%", "100%"],
+        "defaultSweetness": "50%",
+        "iceOptions": ["no_ice", "less_ice", "normal_ice", "extra_ice"],
+        "defaultIce": "normal_ice",
+        "sizeOptions": ["S", "M", "L"],
+        "defaultSize": "M",
+        "toppings": ["extra_shot", "oat_milk", "pearl", "jelly"]
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_CAPPUCCINO",
+      "name": "Cappuccino",
+      "category": "coffee",
+      "price": 50000,
+      "description": "Cappuccino cổ điển với lớp bọt sữa dày mịn, hương espresso đậm đà.",
+      "tags": ["classic", "milk", "coffee"],
+      "imageRes": "img_cappuccino",
+      "attributes": {
+        "caffeine": true,
+        "temperatureOptions": ["hot", "iced"],
+        "defaultTemperature": "hot",
+        "sweetnessOptions": ["0%", "30%", "50%", "70%", "100%"],
+        "defaultSweetness": "30%",
+        "iceOptions": ["no_ice", "less_ice", "normal_ice"],
+        "defaultIce": "normal_ice",
+        "sizeOptions": ["S", "M", "L"],
+        "defaultSize": "M",
+        "toppings": ["extra_shot", "oat_milk", "cinnamon"]
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_AMERICANO",
+      "name": "Americano",
+      "category": "coffee",
+      "price": 45000,
+      "description": "Espresso pha loãng với nước nóng, thanh thoát và nhẹ nhàng.",
+      "tags": ["light", "no_milk", "coffee"],
+      "imageRes": "img_americano",
+      "attributes": {
+        "caffeine": true,
+        "temperatureOptions": ["hot", "iced"],
+        "defaultTemperature": "iced",
+        "sweetnessOptions": ["0%", "30%", "50%"],
+        "defaultSweetness": "0%",
+        "iceOptions": ["no_ice", "less_ice", "normal_ice", "extra_ice"],
+        "defaultIce": "normal_ice",
+        "sizeOptions": ["S", "M", "L"],
+        "defaultSize": "M",
+        "toppings": ["extra_shot"]
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_MATCHA_LATTE",
+      "name": "Matcha Latte",
+      "category": "tea",
+      "price": 60000,
+      "description": "Matcha Nhật Bản cao cấp hòa quyện cùng sữa tươi thơm béo.",
+      "tags": ["no_coffee", "milk", "matcha", "best_seller"],
+      "imageRes": "img_matcha_latte",
+      "attributes": {
+        "caffeine": false,
+        "temperatureOptions": ["hot", "iced"],
+        "defaultTemperature": "iced",
+        "sweetnessOptions": ["0%", "30%", "50%", "70%", "100%"],
+        "defaultSweetness": "50%",
+        "iceOptions": ["no_ice", "less_ice", "normal_ice", "extra_ice"],
+        "defaultIce": "normal_ice",
+        "sizeOptions": ["S", "M", "L"],
+        "defaultSize": "M",
+        "toppings": ["oat_milk", "pearl", "extra_matcha"]
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_JASMINE_TEA",
+      "name": "Trà Hoa Nhài",
+      "category": "tea",
+      "price": 40000,
+      "description": "Trà hoa nhài thanh mát, hương thơm tự nhiên dịu nhẹ.",
+      "tags": ["no_coffee", "no_milk", "light", "refreshing"],
+      "imageRes": "img_jasmine_tea",
+      "attributes": {
+        "caffeine": false,
+        "temperatureOptions": ["hot", "iced"],
+        "defaultTemperature": "iced",
+        "sweetnessOptions": ["0%", "30%", "50%", "70%", "100%"],
+        "defaultSweetness": "50%",
+        "iceOptions": ["no_ice", "less_ice", "normal_ice", "extra_ice"],
+        "defaultIce": "normal_ice",
+        "sizeOptions": ["S", "M", "L"],
+        "defaultSize": "M",
+        "toppings": ["pearl", "lychee_jelly"]
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_PEACH_TEA",
+      "name": "Trà Đào Cam Sả",
+      "category": "tea",
+      "price": 45000,
+      "description": "Kết hợp đào, cam và sả tươi, vừa thơm vừa mát lạnh.",
+      "tags": ["no_coffee", "fruity", "refreshing"],
+      "imageRes": "img_peach_tea",
+      "attributes": {
+        "caffeine": false,
+        "temperatureOptions": ["iced"],
+        "defaultTemperature": "iced",
+        "sweetnessOptions": ["30%", "50%", "70%", "100%"],
+        "defaultSweetness": "70%",
+        "iceOptions": ["less_ice", "normal_ice", "extra_ice"],
+        "defaultIce": "normal_ice",
+        "sizeOptions": ["M", "L"],
+        "defaultSize": "M",
+        "toppings": ["lychee_jelly", "aloe_vera"]
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_STRAWBERRY_BLEND",
+      "name": "Dâu Đá Xay",
+      "category": "ice_blended",
+      "price": 65000,
+      "description": "Đá xay dâu tây tươi, mịn như kem, ngọt ngào và bắt mắt.",
+      "tags": ["no_coffee", "fruity", "sweet", "best_seller"],
+      "imageRes": "img_strawberry_blend",
+      "attributes": {
+        "caffeine": false,
+        "temperatureOptions": ["iced"],
+        "defaultTemperature": "iced",
+        "sweetnessOptions": ["50%", "70%", "100%"],
+        "defaultSweetness": "70%",
+        "iceOptions": ["normal_ice"],
+        "defaultIce": "normal_ice",
+        "sizeOptions": ["M", "L"],
+        "defaultSize": "M",
+        "toppings": ["whipped_cream", "strawberry_sauce"]
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_MOCHA_BLEND",
+      "name": "Mocha Đá Xay",
+      "category": "ice_blended",
+      "price": 65000,
+      "description": "Espresso và sô cô la xay cùng đá, phủ kem tươi béo ngậy.",
+      "tags": ["coffee", "chocolate", "sweet"],
+      "imageRes": "img_mocha_blend",
+      "attributes": {
+        "caffeine": true,
+        "temperatureOptions": ["iced"],
+        "defaultTemperature": "iced",
+        "sweetnessOptions": ["50%", "70%", "100%"],
+        "defaultSweetness": "70%",
+        "iceOptions": ["normal_ice"],
+        "defaultIce": "normal_ice",
+        "sizeOptions": ["M", "L"],
+        "defaultSize": "M",
+        "toppings": ["whipped_cream", "chocolate_sauce", "extra_shot"]
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_CROISSANT",
+      "name": "Bánh Croissant Bơ",
+      "category": "pastry",
+      "price": 35000,
+      "description": "Croissant bơ kiểu Pháp, vỏ giòn xốp, ruột mềm thơm lừng.",
+      "tags": ["bakery", "butter", "classic"],
+      "imageRes": "img_croissant",
+      "attributes": {
+        "caffeine": false,
+        "temperatureOptions": ["warm"],
+        "defaultTemperature": "warm",
+        "sweetnessOptions": [],
+        "sizeOptions": [],
+        "toppings": []
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_TIRAMISU",
+      "name": "Bánh Tiramisu",
+      "category": "pastry",
+      "price": 55000,
+      "description": "Tiramisu Ý thơm nức với mascarpone, cà phê và cacao nguyên chất.",
+      "tags": ["coffee", "dessert", "italian"],
+      "imageRes": "img_tiramisu",
+      "attributes": {
+        "caffeine": true,
+        "temperatureOptions": ["cold"],
+        "defaultTemperature": "cold",
+        "sweetnessOptions": [],
+        "sizeOptions": [],
+        "toppings": []
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_COMBO_A",
+      "name": "Combo Sáng Sớm",
+      "category": "combo",
+      "price": 85000,
+      "description": "1 Americano + 1 Croissant Bơ. Tiết kiệm 5.000đ so với gọi riêng.",
+      "tags": ["combo", "morning", "value"],
+      "imageRes": "img_combo_a",
+      "attributes": {
+        "caffeine": true,
+        "temperatureOptions": ["hot", "iced"],
+        "defaultTemperature": "hot",
+        "sweetnessOptions": ["0%", "30%", "50%"],
+        "defaultSweetness": "0%",
+        "iceOptions": ["no_ice", "normal_ice"],
+        "defaultIce": "no_ice",
+        "sizeOptions": [],
+        "toppings": []
+      },
+      "available": true
+    },
+    {
+      "menuItemId": "VR_COMBO_B",
+      "name": "Combo Chiều Thư Giãn",
+      "category": "combo",
+      "price": 110000,
+      "description": "1 Matcha Latte + 1 Dâu Đá Xay + 1 Bánh Tiramisu. Ưu đãi đặc biệt.",
+      "tags": ["combo", "afternoon", "no_coffee", "best_seller"],
+      "imageRes": "img_combo_b",
+      "attributes": {
+        "caffeine": false,
+        "temperatureOptions": ["iced"],
+        "defaultTemperature": "iced",
+        "sweetnessOptions": ["50%", "70%"],
+        "defaultSweetness": "50%",
+        "iceOptions": ["normal_ice"],
+        "defaultIce": "normal_ice",
+        "sizeOptions": [],
+        "toppings": []
+      },
+      "available": true
+    }
+  ]
+}

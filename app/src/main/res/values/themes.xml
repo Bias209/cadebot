@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Cadebot_UI" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+</resources>

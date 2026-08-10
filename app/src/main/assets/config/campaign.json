@@ -1,0 +1,37 @@
+{
+  "campaigns": [
+    {
+      "id": "camp_001",
+      "title": "Combo Sáng Sớm",
+      "subtitle": "Americano + Croissant chỉ 85.000đ",
+      "description": "Khởi đầu ngày mới năng lượng với combo tiết kiệm 5.000đ.",
+      "imageRes": "img_campaign_morning",
+      "validFrom": "2026-06-01",
+      "validTo": "2026-12-31",
+      "relatedComboId": "VR_COMBO_A",
+      "active": true
+    },
+    {
+      "id": "camp_002",
+      "title": "Chiều Thư Giãn",
+      "subtitle": "Matcha + Dâu Đá Xay + Tiramisu 110.000đ",
+      "description": "Bộ 3 hoàn hảo cho chiều tà, tiết kiệm hơn 10.000đ.",
+      "imageRes": "img_campaign_afternoon",
+      "validFrom": "2026-06-01",
+      "validTo": "2026-12-31",
+      "relatedComboId": "VR_COMBO_B",
+      "active": true
+    },
+    {
+      "id": "camp_003",
+      "title": "Viva Reserve Experience",
+      "subtitle": "Khám phá không gian cà phê độc đáo",
+      "description": "Cadebot L100 phục vụ tận tay — trải nghiệm cà phê tương lai tại Viva Reserve.",
+      "imageRes": "img_campaign_robot",
+      "validFrom": "2026-06-01",
+      "validTo": "2026-12-31",
+      "relatedComboId": null,
+      "active": true
+    }
+  ]
+}

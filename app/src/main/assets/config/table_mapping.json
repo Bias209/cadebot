@@ -1,0 +1,10 @@
+{
+  "tables": [
+    { "tableId": "T01", "tablePointId": "wp_table_01", "displayName": "Bàn 01", "zone": "A" },
+    { "tableId": "T02", "tablePointId": "wp_table_02", "displayName": "Bàn 02", "zone": "A" },
+    { "tableId": "T03", "tablePointId": "wp_table_03", "displayName": "Bàn 03", "zone": "A" },
+    { "tableId": "T04", "tablePointId": "wp_table_04", "displayName": "Bàn 04", "zone": "B" },
+    { "tableId": "T05", "tablePointId": "wp_table_05", "displayName": "Bàn 05", "zone": "B" },
+    { "tableId": "BAR", "tablePointId": "wp_bar", "displayName": "Quầy Bar", "zone": "BAR" }
+  ]
+}
