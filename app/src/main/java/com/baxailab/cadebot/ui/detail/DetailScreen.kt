@@ -24,7 +24,6 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.baxailab.cadebot.data.model.CartItem
-import com.baxailab.cadebot.data.model.SIZE_PRICE_DELTA
 import com.baxailab.cadebot.ui.components.*
 import com.baxailab.cadebot.ui.theme.*
 
@@ -120,14 +119,8 @@ fun DetailScreen(
                 item {
                     OptionSection(label = "Size") {
                         item.attributes.sizeOptions.forEach { size ->
-                            val delta = SIZE_PRICE_DELTA[size] ?: 0
-                            val label = when {
-                                delta > 0 -> "$size  +${String.format("%,d", delta)}đ"
-                                delta < 0 -> "$size  ${String.format("%,d", delta)}đ"
-                                else -> size
-                            }
                             OptionChip(
-                                label = label,
+                                label = size,
                                 selected = uiState.selectedSize == size,
                                 onClick = { viewModel.setSize(size) }
                             )
@@ -154,7 +147,7 @@ fun DetailScreen(
             // Đá — chỉ hiện khi Lạnh
             if (item.attributes.iceOptions.isNotEmpty() && !uiState.isHot) {
                 item {
-                    OptionSection(label = "Đá  (0% = không đá)") {
+                    OptionSection(label = "Đá") {
                         item.attributes.iceOptions.forEach { ice ->
                             OptionChip(
                                 label = iceLabel(ice),
